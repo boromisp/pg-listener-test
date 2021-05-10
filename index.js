@@ -5,7 +5,7 @@ const client = new Client({
   query_timeout: 1000, // Ping query timeout
 });
 
-const HEARTBEAT_TIMEOUT = 5000;
+const HEARTBEAT_TIMEOUT = 25000;
 
 async function ping(client) {
   try {
